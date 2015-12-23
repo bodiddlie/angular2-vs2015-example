@@ -166,3 +166,6 @@ $RECYCLE.BIN/
 .DS_Store
 report/
 dest/
+TypescriptNG2/js/
+coverage/
+typings/
