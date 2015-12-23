@@ -18,7 +18,11 @@ namespace TypescriptNG2.Controllers
     {
         private static List<Movie> movies = new List<Movie>
         {
-            new Movie { ID = 1, Title = "Star Wars: The Force Awakens" }
+            new Movie { ID = 1, Title = "Star Wars: The Force Awakens" },
+            new Movie { ID = 2, Title = "Star Trek: Beyond" },
+            new Movie { ID = 3, Title = "Mad Max: Fury Road" },
+            new Movie { ID = 4, Title = "Sicario" },
+            new Movie { ID = 5, Title = "Iron Man" }
         };
 
         [Route("")]

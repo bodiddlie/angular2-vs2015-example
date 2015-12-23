@@ -16,7 +16,7 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.ts$/, loader: 'ts-loader', include: PATHS.app },
+            { test: /\.ts$/, loader: 'ts-loader', include: PATHS.app, exclude: PATHS.app + '/**/*.test.ts' },
             { test: /\.css$/, loader: 'style!css' },
             { test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg)(\?.*$|$)/ , loader: 'url-loader?importLoaders=1&limit=1000000' },
             { test: /\.scss$/, loader: 'style!css!sass' }

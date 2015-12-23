@@ -158,6 +158,12 @@
     <TypeScriptCompile Include="app\bootstrap.ts" />
     <TypeScriptCompile Include="app\common\header.component.test.ts" />
     <TypeScriptCompile Include="app\common\header.component.ts" />
+    <TypeScriptCompile Include="app\common\header.service.test.ts" />
+    <TypeScriptCompile Include="app\common\header.service.ts" />
+    <TypeScriptCompile Include="app\movies\movie-detail.component.ts" />
+    <TypeScriptCompile Include="app\movies\movie-list.component.ts" />
+    <TypeScriptCompile Include="app\movies\movie.component.ts" />
+    <TypeScriptCompile Include="app\movies\movie.service.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
   </ItemGroup>
   <ItemGroup>
