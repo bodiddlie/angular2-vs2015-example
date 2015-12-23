@@ -160,7 +160,6 @@
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="app\app.scss" />
-    <None Include="Project_Readme.html" />
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
