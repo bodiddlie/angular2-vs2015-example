@@ -169,3 +169,4 @@ dest/
 TypescriptNG2/js/
 coverage/
 typings/
+.vs/
